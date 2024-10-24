@@ -1,13 +1,15 @@
+package tests;
+
 import static org.mockito.Mockito.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import software.ulpgc.terrace.Executor;
-import software.ulpgc.terrace.Storage;
-import software.ulpgc.terrace.Summary;
-import software.ulpgc.terrace.TextProcessor;
+import software.ulpgc.Executor;
+import software.ulpgc.Storage;
+import software.ulpgc.Summary;
+import software.ulpgc.TextProcessor;
 
 public class ExecutorTest {
 	@Mock

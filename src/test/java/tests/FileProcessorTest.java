@@ -1,8 +1,10 @@
+package tests;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-import software.ulpgc.terrace.Summary;
-import software.ulpgc.terrace.TextProcessor;
+import software.ulpgc.Summary;
+import software.ulpgc.TextProcessor;
 
 public class FileProcessorTest {
 

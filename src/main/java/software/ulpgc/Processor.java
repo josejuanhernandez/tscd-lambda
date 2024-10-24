@@ -1,4 +1,4 @@
-package software.ulpgc.terrace;
+package software.ulpgc;
 
 public interface Processor {
 	Summary process(String filename, String content);

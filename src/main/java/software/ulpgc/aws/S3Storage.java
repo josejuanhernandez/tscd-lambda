@@ -1,12 +1,12 @@
-package software.ulpgc.terrace.aws;
+package software.ulpgc.aws;
 
 import software.amazon.awssdk.core.sync.RequestBody;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.s3.model.GetObjectRequest;
 import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 
-import software.ulpgc.terrace.Storage;
-import software.ulpgc.terrace.Summary;
+import software.ulpgc.Storage;
+import software.ulpgc.Summary;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

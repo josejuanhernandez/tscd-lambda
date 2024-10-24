@@ -40,4 +40,4 @@ jobs:
           aws lambda update-function-code \
             --function-name lambda-summary-processor \
             --zip-file fileb://target/lambda-summary-processor-1.0.0.jar \
-            --region us-west-2
+            --region us-east-1

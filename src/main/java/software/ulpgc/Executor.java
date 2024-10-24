@@ -1,4 +1,4 @@
-package software.ulpgc.terrace;
+package software.ulpgc;
 
 public class Executor {
 	private final Storage storage;

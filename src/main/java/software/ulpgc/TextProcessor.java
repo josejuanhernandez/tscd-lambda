@@ -1,4 +1,4 @@
-package software.ulpgc.terrace;
+package software.ulpgc;
 
 public class TextProcessor implements Processor {
 
