@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>software.ulpgc.terrace</groupId>
-    <artifactId>summary-lambda</artifactId>
+    <artifactId>lambda-summary-processor</artifactId>
     <version>1.0.0</version>
 
     <properties>

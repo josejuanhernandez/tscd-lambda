@@ -38,6 +38,6 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           aws lambda update-function-code \
-            --function-name summary-processor-lambda \
+            --function-name lambda-summary-processor \
             --zip-file fileb://target/lambda-summary-processor.jar \
             --region us-west-2
